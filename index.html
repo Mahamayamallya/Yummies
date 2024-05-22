@@ -14,26 +14,54 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/77347da150.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!------------Navigation------------->
-    <section class="navigation">
+    <nav class="navbar">
       <div class="nav-center">
-        <div class="logo">
-          <a href="#">Yummies</a>
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"> Yummies </a>
+          <button class="nav-btn">
+            <i class="fa-solid fa-sliders"></i>
+          </button>
         </div>
-        <div class="hamburger"></div>
-        <ul class="nav-links">
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="Tags.html">Tags</a></li>
-          <li><a href="recipe.html">Recipes</a></li>
-        </ul>
-        <div>
-          <a href="contact.html" class="contact-btn">Contact</a>
+        <div class="nav-links">
+          <a href="index.html" class="active nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipe.html" class="nav-link"> recipes </a>
+
+          <div class="contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
         </div>
       </div>
-    </section>
+    </nav>
+    <!-- <section class="navigation">
+      <div class="nav-center">
+        <div class="logo">
+          <a href="index.html">Yummies</a>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html" class="active nav-link">Home</a></li>
+            <li><a href="about.html" class="nav-link">About Us</a></li>
+            <li><a href="Tags.html" class="nav-link">Tags</a></li>
+            <li><a href="recipe.html" class="nav-link">Recipes</a></li>
+          </ul>
+          <div>
+            <a href="contact.html" class="contact-btn">Contact</a>
+          </div>
+        </div>
+        <div class="hamburger">
+          <i class="fa-solid fa-sliders"></i>
+        </div>
+      </div>
+    </section> -->
 
     <!--------------Head section-------------->
     <section class="head-section-mobile">
@@ -99,7 +127,7 @@
     <!---------------------------footer------------------>
     <footer>
       <p>
-        &copy; 2024 <span> Yumies </span> Built by
+        &copy;<span class="date"></span><span> Yumies </span> Built by
         <span
           ><a href="https://www.linkedin.com/in/mahamaya-mallya-51052b190/"
             >Mahamaya</a
@@ -107,5 +135,6 @@
         </span>
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

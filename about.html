@@ -14,26 +14,33 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/77347da150.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!------------Navigation------------->
-    <section class="navigation">
+    <nav class="navbar">
       <div class="nav-center">
-        <div class="logo">
-          <a href="#">Yummies</a>
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"> Yummies </a>
+          <button class="nav-btn">
+            <i class="fa-solid fa-sliders"></i>
+          </button>
         </div>
-        <div class="hamburger"></div>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html" class="active">About Us</a></li>
-          <li><a href="Tags.html">Tags</a></li>
-          <li><a href="recipe.html">Recipes</a></li>
-        </ul>
-        <div>
-          <a href="contact.html" class="contact-btn">Contact</a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="active nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipe.html" class="nav-link"> recipes </a>
+
+          <div class="contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
         </div>
       </div>
-    </section>
+    </nav>
 
     <!-------------------about section------------->
     <section class="about">
@@ -92,5 +99,6 @@
         </span>
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -14,36 +14,51 @@
       href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap"
       rel="stylesheet"
     />
+    <script
+      src="https://kit.fontawesome.com/77347da150.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <!------------Navigation------------->
-    <section class="navigation">
+    <nav class="navbar">
       <div class="nav-center">
-        <div class="logo">
-          <a href="#">Yummies</a>
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo"> Yummies </a>
+          <button class="nav-btn">
+            <i class="fa-solid fa-sliders"></i>
+          </button>
         </div>
-        <div class="hamburger"></div>
-        <ul class="nav-links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="Tags.html">Tags</a></li>
-          <li><a href="recipe.html" class="active">Recipes</a></li>
-        </ul>
-        <div>
-          <a href="contact.html" class="contact-btn">Contact</a>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipe.html" class="nav-link active"> recipes </a>
+
+          <div class="contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
         </div>
       </div>
-    </section>
+    </nav>
     <!-------------------Home page recipie section------>
     <section>
       <div class="home-page-recipe">
         <div class="recipe-list">
           <h4>Recipes</h4>
           <ul class="recipie-list-link">
-            <li>Breakfast<span>(2)</span></li>
-            <li>Lunch<span>(2)</span></li>
-            <li>Snacks<span>(3)</span></li>
-            <li>Dessert<span>(1)</span></li>
+            <li>
+              <a href="tags.html" class="re-list">Breakfast<span>(2)</span></a>
+            </li>
+            <li>
+              <a href="tags.html" class="re-list">Lunch<span>(2)</span></a>
+            </li>
+            <li>
+              <a href="tags.html" class="re-list">Snacks<span>(3)</span></a>
+            </li>
+            <li>
+              <a href="tags.html" class="re-list">Dessert<span>(1)</span></a>
+            </li>
           </ul>
         </div>
 
@@ -90,5 +105,6 @@
         </span>
       </p>
     </footer>
+    <script src="script.js"></script>
   </body>
 </html>
