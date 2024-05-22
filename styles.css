@@ -325,11 +325,6 @@ footer a {
   height: 7rem;
 }
 
-.form-alert {
-  color: red;
-  letter-spacing: var(--letter-space-1);
-  text-transform: capitalize;
-}
 .btn-block {
   width: 100%;
   font-size: 16px;
